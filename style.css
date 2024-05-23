@@ -1,0 +1,187 @@
+
+#navbar{
+    background-color: #313133;
+   position: sticky;
+   top: 0;
+   z-index: 10;
+}
+.navbar-nav{
+   margin-left: 50%;
+}
+.nav-item .nav-link {
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    display:inline-block;
+}
+ .nav-item .nav-link:hover {
+   color: #ffc800;
+   
+}
+
+.navbarsection{
+    background-image: url(images/header-bg.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+.font{
+    font-family: "Roboto Slab", serif;
+    color: #fff;
+}
+.fontt{
+    font-size: 56px;
+}
+.rondd{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #ffc800;
+    margin-left: 35%;
+}
+.icone{
+    font-size: 60px;
+}
+  /* teamm */
+  .social {
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 7px;
+    border-radius: 100%;
+    background-color: black;
+    color: #fff;
+}
+
+.team-member img {
+    width: 10rem;
+    height: 10rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.img-brand{
+    width: 60%;
+}
+.portfolio{
+    background-color: #f8f9fa;
+}
+
+/* contact */
+section#contact {
+    background-color: #212529;
+    background-image: url(images/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* about */
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+.timeline > li {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 50px;
+}
+.timeline > li .timeline-image {
+    position: absolute;
+    /* z-index: 100; */
+    left: 0;
+    width: 90px;
+    height: 90px;
+    margin-left: 0;
+    text-align: center;
+    color: white;
+    border: 7px solid #e9ecef;
+    border-radius: 100%;
+    background-color: #ffc800;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+ .timeline > li:before {
+    display: table;
+    content: " ";
+}
+.timeline > li:after {
+    clear: both;
+}
+
+.timeline > li:after, .timeline > li:before {
+    display: table;
+    content: " ";
+}
+.timeline > li .timeline-panel {
+    position: relative;
+    float: right;
+    width: 100%;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+.timeline:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    content: "";
+    background-color: #e9ecef;
+}
+.timeline > li .timeline-panel {
+    position: relative;
+    width: 100%;
+   
+}
+@media screen and (max-width:375px) {
+    .navbar-nav{
+        margin: 0;
+    }
+}
+@media (min-width: 768px) {
+    .timeline:before {
+        left: 50%;
+    }
+}
+@media (min-width: 768px) {
+    .timeline > li .timeline-image {
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+    }
+}
+@media (min-width: 768px) {
+    .timeline > li {
+        min-height: 100px;
+        margin-bottom: 100px;
+    }
+}
+@media (min-width: 768px) {
+    .timeline > li .timeline-image {
+        left: 50%;
+        width: 10rem;
+        height: 10rem;
+        margin-left: -80px;
+    }
+}
+@media (min-width: 768px) {
+    .timeline > li .timeline-panel {
+        float: left;
+        width: 41%;
+        padding: 0 20px 20px 30px;
+        text-align: right;
+    }
+    
+    .team-member img {
+        width: 16rem;
+        height: 16rem;
+        border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    }
+}
